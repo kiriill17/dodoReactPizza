@@ -1,0 +1,32 @@
+.cartShop{
+    border: 1px solid #9b9b9b;
+    border-radius: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 30px;
+    margin-bottom: 16px;
+    transition: 0.3s ease-in-out;
+}
+
+.cartShop:hover{
+    box-shadow: 0 2px 8px #9b9b9b;
+}
+
+.cartShop h1{
+    font-size: 16px;
+    margin: 0;
+}
+
+.cartShop__middle{
+    margin-left: -70px;
+}
+
+.cartShop p{
+    font-size: 14px;
+    margin: 0;
+}
+
+.delete__pizza{
+    cursor: pointer;
+}

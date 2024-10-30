@@ -1,0 +1,72 @@
+.header__container{
+    margin: 0 auto;
+    width: 1200px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header hr{
+    border: 1px solid #e0e0e0;
+    width: 1200px;
+    margin: 0 auto;
+}
+
+header h1{
+    margin: 0;
+    margin-top: 20px;
+}
+
+header p{
+    margin: 0;
+    margin-bottom: 20px;
+}
+
+.header__right{
+    display: flex;
+}
+
+.header__cart{
+    background-color: #424242;
+    color: #fff;
+    border: none;
+    border-radius: 10px;
+    padding: 10px 0;
+    cursor: pointer;
+    margin-left: 30px;
+    width: 200px;
+    transition: 0.2s ease-in-out;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.header__izbr{
+    background-color: rgb(255, 255, 255);
+    width: 200px;
+    border: 1px solid #000;
+    border-radius: 10px;
+    padding: 10px 0;
+    cursor: pointer;
+    margin-left: 30px;
+    transition: 0.2s ease-in-out;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.Heart{
+    margin-right: 10px;
+}
+
+.shopingCart{
+    margin-right: 10px;
+}
+
+.header__cart:hover{
+    scale: 1.05;
+}
+
+.header__izbr:hover{
+    scale: 1.05;
+}

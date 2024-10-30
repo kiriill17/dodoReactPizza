@@ -1,0 +1,33 @@
+.shop__container{
+    width: 200px;
+    box-shadow: 0 2px 10px #00000048;
+    border-radius: 20px;
+    padding: 20px 30px;
+    margin-bottom: 60px;
+    transition: 0.2s ease-in-out;
+    text-align: center;
+}
+
+.shop__container:hover{
+    scale: 1.05;
+}
+
+.shop__container h1{
+    font-size: 24px;
+    margin-top: 0;
+}
+
+.shop__container button{
+    background-color: #fff;
+    border: 1px solid #000;
+    border-radius: 10px;
+    padding: 6px 0;
+    width: 100%;
+    cursor: pointer;
+    transition: 0.2s ease-in-out;
+}
+
+.shop__container button:hover{
+    box-shadow: 0 2px 8px #00000050;
+    scale: 1.05;
+}
